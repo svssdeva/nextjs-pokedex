@@ -1,0 +1,32 @@
+
+.page_404 { 
+    padding:40px 0;
+    background:#fff;
+    height: 100%;
+    img { 
+        width:100%;
+    }
+}
+
+.four_zero_four_bg {
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+
+ }
+
+.contant_box_404 {
+    h1 {
+        @apply text-7xl text-black font-bold;
+    }
+     h3 {
+        @apply text-4xl text-black;
+    }
+    
+}
+
+.link_404 {			 
+    @apply text-white inline-block mx-5 mt-2 mb-0 px-2 py-4 bg-indigo-700;
+}

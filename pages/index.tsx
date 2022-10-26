@@ -1,7 +1,6 @@
 import Head from 'next/head';
-import Image from 'next/image';
+import Link from 'next/link';
 import styles from '../styles/Home.module.scss';
-
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -13,6 +12,14 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Welcome to Pokedex powered by Next.js!</h1>
+
+        <p className={styles.description}>
+          <Link href="/pokemon">
+            Get started by navigating
+            <code className={styles.code}>pokemon listing !!!</code>
+          </Link>
+        </p>
+
         <div className={styles.grid}></div>
       </main>
     </div>
