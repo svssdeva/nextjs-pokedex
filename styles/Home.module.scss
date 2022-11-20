@@ -21,6 +21,12 @@
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  @media (max-width: 768px) {
+    font-size: 3rem;
+  }
+  @media (max-width: 412px) {
+    font-size: 2.5rem;
+  }
 }
 
 .title,
@@ -48,7 +54,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+ // max-width: 800px;
 }
 
 .card {
