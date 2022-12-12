@@ -1,0 +1,12 @@
+.mainGrid {
+  @apply grid overflow-hidden grid-cols-1 md:grid-cols-2 grid-rows-2 gap-2 px-2
+}
+.box {
+  @apply
+  bg-indigo-700
+  text-gray-100
+  min-w-full
+  h-32
+  min-h-full
+  rounded;
+}
