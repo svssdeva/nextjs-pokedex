@@ -25,6 +25,8 @@ export default function Pokemon() {
   return (
     <div className="wrapper">
       <h1>Hi from pokemon page</h1>
+      
+      <PokemonListWrapper data={pokemons} />
     </div>
   );
 }
