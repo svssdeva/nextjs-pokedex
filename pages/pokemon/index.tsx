@@ -10,8 +10,10 @@ export default function Pokemon() {
     getPokemons(query).then(
       res => {
         console.log(res);
-        pokemons.pokemons = [...pokemons.pokemons, ...res.list];
-        setPokemons(pokemons);
+        
+//         pokemons.pokemons = [...pokemons.pokemons, ...res.list];
+//         setPokemons(pokemons);
+        setPokemons( (prev) => [...prev, ...res.list] )
         setLoading(false);
       },
       err => {
