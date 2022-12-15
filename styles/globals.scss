@@ -19,17 +19,26 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
+//@media (prefers-color-scheme: dark) {
+//  html {
+//    color-scheme: dark;
+//  }
+//  body {
+//    color: white;
+//    background: black;
+//  }
+//}
 
 
 .load-more-btn {
   box-shadow: 0 15px 30px -5px rgba(220, 38, 38, 0.6);
+}
+
+
+.pdf-here {
+  width: 450px;
+  height: 600px;
+  overflow-y: scroll;
+  border: 2px solid black;
+  margin: auto;
 }
